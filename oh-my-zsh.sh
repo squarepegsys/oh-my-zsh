@@ -14,4 +14,4 @@ for config_file ($ZSH/lib/*.zsh) source $config_file
 plugin=${plugin:=()}
 for plugin ($plugins) source $ZSH/plugins/$plugin/$plugin.plugin.zsh
 
-source z.sh
+source $ZSH/z.sh
